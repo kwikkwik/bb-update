@@ -226,7 +226,7 @@ if (command === 'ping') {
         .addField("Bot Uptime:", `• ${duration}`, true)
         .addField("Memory Usage:", `• ${memory_on_bot} MB`, true)
         .addField("Advanced Stats:", `• ${servers} Servers \n• ${users} Users \n• ${client_channel} Channels`, true)
-        .addField("Bot Informations:", `• Bot Developer: ${owner} \n• Bot Version: ${packages.version}`, true)
+        .addField("Bot Informations:", `• Bot Developer: \`${owner}\` \n• Bot Version: ${packages.version}`, true)
         .addField("CPU Usage:", `• ${Math.round(ccpu * 100) / 100}%`, true)
 	
 	.addField("Usefull Links", "[Invite Me](https://bot.discord.io/Bolt)\n[Vote](https://discordbots.org/bot/471150809196003328/vote)")
