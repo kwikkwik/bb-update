@@ -69,8 +69,7 @@
     "mojang-api": "^0.0.2",
     "got": "^8.3.2",
     "random-puppy": "^1.1.0",
-    "request-promise-native": "^1.0.5",
-    "parse-ms": "^2.0.0"
+    "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
     "eslint": "^4.0.0",
